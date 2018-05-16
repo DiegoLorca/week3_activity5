@@ -3,8 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style media="screen">
+    body{
+      margin: 0 auto;
+      font-family: 'Roboto', sans-serif;
+    }
+      .header{
+        text-align: center;
+        background-color: #20c120;
+        color: white;
+        font-size: 12vh;
+        height: 150px;
+        padding: 50px;
+      }
+      .pad{
+        padding-top: 100px;
+        padding-right: 5px;
+        box-sizing: border-box;
+      }
+      .block{
+        padding: 5%;
+      }
+      p{
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
-    
+    <div class="row">
+      <div class="col-md-10 header">
+        <p>HOLA !!</p>
+        <p>ESTE ES UN EJERCICIO DE GRILLAS</p>
+      </div>
+    </div>
+
+    <div class="row pad">
+        <div class="col-md-3 ">
+          <div class="block">
+            <img src="bg22.jpeg" alt="bg22" class="img-responsive">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="block">
+            <img src="bg22.jpeg" alt="bg22" class="img-responsive">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="block">
+            <img src="bg22.jpeg" alt="bg22" class="img-responsive">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          </div>
+        </div>
+
+    </div>
+
   </body>
 </html>
